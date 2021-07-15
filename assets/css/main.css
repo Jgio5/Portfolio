@@ -363,12 +363,25 @@ input, select, textarea {
 		.row > .col-4 {
 			width: 30%;
 			border-radius: 10px;
-			box-shadow: 5px 5px 15px #184065;
+			box-shadow: 5px 5px 15px #3c6d9b;
 		}
-		.row > .col-4:hover {
-			width: 30%;
-			border-radius: 10px;
-			box-shadow: 5px 5px 15px #22a33e;
+		.row > .col-4.col-4-spotify:hover {
+			box-shadow: 5px 5px 15px #1FD760;
+		}
+		.row > .col-4.col-4-maserati:hover {
+			box-shadow: 5px 5px 15px #231F20;
+		}
+		.row > .col-4.col-4-netflix:hover {
+			box-shadow: 5px 5px 15px #FF1C0A;
+		}
+		.row > .col-4.col-4-whatsapp:hover {
+			box-shadow: 5px 5px 15px #00D158;
+		}
+		.row > .col-4.col-4-airbnb:hover {
+			box-shadow: 5px 5px 15px #FF5A5F;
+		}
+		.row > .col-4.col-4-deliveboo:hover {
+			box-shadow: 5px 5px 15px #2D93B5;
 		}
 
 		.row > .off-4 {
